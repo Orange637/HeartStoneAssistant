@@ -53,6 +53,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\CardGroupTypeToNameConverter.cs" />
+    <Compile Include="Converters\CardGroupTypeToBigIconPathConverter.cs" />
+    <Compile Include="Converters\CardGroupTypeToIconPathConverter.cs" />
+    <Compile Include="Model\Enum\CardGroupType.cs" />
+    <Compile Include="Model\TabInfo.cs" />
+    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Page Include="Converters\Converters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,6 +108,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
+      <Project>{1f74b0bc-1711-4f7b-a915-2a07b08fd976}</Project>
+      <Name>Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Resource\Resource.csproj">
       <Project>{194894f1-7bec-4b14-aef7-155d80fd5c39}</Project>
       <Name>Resource</Name>

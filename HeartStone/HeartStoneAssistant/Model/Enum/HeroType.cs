@@ -16,6 +16,6 @@ namespace HeartStoneAssistant.Model.Enum
         Rogue,//潜行者
         Shaman,//萨满
         Warlock,//术士
-        Warrior//战士
+        Warrior,//战士
     }
 }
