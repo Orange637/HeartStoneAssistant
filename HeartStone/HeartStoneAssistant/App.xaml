@@ -1,0 +1,8 @@
+﻿<Application x:Class="HeartStoneAssistant.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary Source="/Resource;component/Themes/Generic.xaml"></ResourceDictionary>
+    </Application.Resources>
+</Application>
