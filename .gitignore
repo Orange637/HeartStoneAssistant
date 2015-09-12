@@ -7,7 +7,10 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-$obj/bin/
+$bin/Debug/
+$obj/bin/Debug/
+$HeartStone/Resource/obj/Debug/
+$HeartStone/HeartStoneAssistant/obj/Debug/
 
 #cache
 *.cache
@@ -48,3 +51,21 @@ $obj/bin/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.exe
+*.baml
+HeartStone/HeartStoneAssistant/obj/Debug/HeartStoneAssistant.Properties.Resources.resources
+HeartStone/HeartStoneAssistant/obj/Debug/HeartStoneAssistant.g.resources
+HeartStone/HeartStoneAssistant/obj/Debug/HeartStoneAssistant.csproj.FileListAbsolute.txt
+HeartStone/HeartStoneAssistant/bin/Debug/Resource.dll
+HeartStone/Resource/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+HeartStone/Resource/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+HeartStone/Resource/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+HeartStone/HeartStoneAssistant/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+HeartStone/HeartStoneAssistant/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+HeartStone/HeartStoneAssistant/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+HeartStone/Resource/bin/Debug/Resource.dll
+HeartStone/Resource/obj/Debug/Resource.dll
+HeartStone/Resource/obj/Debug/Resource.g.resources
+HeartStone/Resource/obj/Debug/Resource.Properties.Resources.resources
+HeartStone/HeartStoneAssistant/bin/Debug/HeartStoneAssistant.exe.config
+HeartStone/Resource/obj/Debug/Resource.csproj.FileListAbsolute.txt
